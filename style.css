@@ -212,5 +212,9 @@ input[type="submit"]:active
 
 @media (max-width: 600px)
 {
-    
+    section span
+    {
+        width: calc(20vw - 2px);
+        height: calc(20vw - 2px);
+    }
 }
