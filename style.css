@@ -183,6 +183,7 @@ section .signin .content .form .inputBox i
     font-weight: 600;
 }
 
+/* login button */
 .signin .content .form .inputBox input[type="submit"]
 {
     padding: 10px;
@@ -192,4 +193,24 @@ section .signin .content .form .inputBox i
     font-size: 1.35em;
     letter-spacing: 0.05em;
     cursor: pointer;
+}
+
+input[type="submit"]:active
+{
+    opacity: 0.6;
+}
+
+/* making it respinsive */
+@media (max-width: 900px)
+{
+    section span
+    {
+        width: calc(10vw -2px);
+        height: calc(10vw - 2px);
+    }
+}
+
+@media (max-width: 600px)
+{
+    
 }
