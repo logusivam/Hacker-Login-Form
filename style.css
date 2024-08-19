@@ -189,4 +189,7 @@ section .signin .content .form .inputBox i
     background: #0f0;
     color: #000;
     font-weight: 600;
+    font-size: 1.35em;
+    letter-spacing: 0.05em;
+    cursor: pointer;
 }
