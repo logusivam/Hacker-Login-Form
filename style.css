@@ -72,3 +72,46 @@ section span:hover
     background: #0f0;
     transition: 0s;
 }
+
+/* signin form */
+section .signin
+{
+
+    position: absolute;
+    width: 400px;
+    background: #222;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgba(0,0,0,9);
+}
+
+/* content position */
+section .signin .content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* signin heading */
+section .signin .content h2
+{
+    font-size: 2em;
+    color: #0f0;
+    text-transform: uppercase;
+}
+
+section .signin .content .form
+{
+    width: 100%;
+    
+}
