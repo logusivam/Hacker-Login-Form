@@ -155,5 +155,7 @@ section .signin .content .form .inputBox i
 .signin .content .form .inputBox input:focus ~ i,
 .signin .content .form .inputBox input:valid ~ i
 {
-    
+    transform: translateY(-19.5px);
+    font-size: 0.8em;
+    color: #fff;
 }
