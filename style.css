@@ -160,3 +160,33 @@ section .signin .content .form .inputBox i
     font-size: 0.8em;
     color: #fff;
 }
+
+/* links */
+.signin .content .form .links
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin .content .form .links a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* links > signup */
+.signin .content .form .links a:nth-child(2)
+{
+    color: #0f0;
+    font-weight: 600;
+}
+
+.signin .content .form .inputBox input[type="submit"]
+{
+    padding: 10px;
+    background: #0f0;
+    color: #000;
+    font-weight: 600;
+}
