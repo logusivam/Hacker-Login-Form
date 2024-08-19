@@ -152,6 +152,7 @@ section .signin .content .form .inputBox i
     pointer-events: none;
 }
 
+/* input box name position */
 .signin .content .form .inputBox input:focus ~ i,
 .signin .content .form .inputBox input:valid ~ i
 {
